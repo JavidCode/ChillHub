@@ -1,0 +1,210 @@
+            /* Define font faces */
+            @font-face {
+            font-family: 'MavenProLight-200';
+            src: url("fonts/MavenProLight-200.otf");
+            }
+            @font-face {
+            font-family: 'MavenProLight-300';
+            src: url("fonts/MavenProLight-300.otf");
+            }
+            p,li {
+            font-size:1.2em;
+            font-family: 'MavenProLight-300', sans-serif;
+            color:black;
+            }
+            h1,h2,h3,h4 {
+            font-family: 'MavenProLight-400', sans-serif;
+            color:black;
+            }
+            .pbold {
+            font-family: 'MavenProLight-700', sans-serif;
+            color:black;
+            }
+
+            /* Define HEADER specifics */
+            #header {
+            background-color: white;
+            background-image: url("/images/background/top.jpg");
+            background-size:cover;
+            }
+            #header p {
+	            padding:0 3% 0 8%;
+            }
+        	#photoLarge {
+        		margin:20px;
+        	}
+            #footerBar img {
+            	margin:3px;
+            }
+            #footerBar img:hover {
+            	border: #1ab7ea solid 3px;
+            }
+            #buyNowButton {
+            	border:black 1px solid;
+            	text-align:center;
+            	vertical-align:middle;
+            	background-color:#1ab7ea;
+            	color:white;
+            	margin:10px;
+            }
+            #buyNowButton:hover {
+            	color:grey;
+            	text-decoration:none;
+            }
+
+            /* Define NAVBAR specifics */
+            #navBarBanner {
+            background-color: black;
+            }
+            .navbar {
+            margin-bottom:0 !important;
+            }
+            .navbar-collapse.collapse {
+            text-align:center;
+            height:auto !important;
+            }
+            .navbar-nav {
+            text-align:center;
+            display:inline-block;
+            float:none;
+            }
+            .navbar .nav > li > a {
+            color:white;
+            }
+            .navbar .nav > li > a:hover {
+            color:grey;
+            }
+            .navbar li {
+            font-size:1.2em;
+            font-family: 'MavenProLight-700', sans-serif;
+            }
+
+            /* Define STORY specifics */
+            #story {
+            background-color:#1ab7ea;
+            }
+            #story p {
+            padding:0 13% 0 13%;
+            }
+            #storyVideo {
+            width:80%;
+            height:300px;
+            margin-left:10%;
+            margin-right:10%;
+            }
+
+            /* Define APPLICATIONS specifics */
+            #applications {
+            background-color:#79b705;
+            background-image: url("/images/background/what_does_it_do.jpg");
+            background-size:cover;
+            }
+            #applications img:hover {
+            border: #1ab7ea solid 3px;
+            }
+            #applications p {
+            color:white;
+            padding:0 12% 0 13%;
+            }
+            #applicationImages {
+            	margin-left:5%;
+            	margin-right:25%;
+            }
+            .products {
+            font-size:120%;
+            margin-left:10%;
+            margin-right:10%;
+            }
+            .productComment {
+            font-size:80%;
+            margin-left:10%;
+            margin-right:10%;
+            }
+            #chillHubCommunityButton {
+            position:relative;
+            margin:0 auto;
+            display:block;
+            padding:20px;
+            color:black;
+            }
+            #chillHubCommunityButton > button:hover {
+            background-color:#bef948;
+            }
+
+            /* Define FEATURES specifics */
+            #features {
+            background-image: url("/images/background/feature.jpg");
+            background-size:cover;
+            }
+            #features p,h3 {
+            padding:0 10% 0 5%;
+            }
+            .featureTitle {
+            text-align:left;
+            }
+
+            /* Define SPECS specifics */
+            #specs {
+            background-image: url("/images/background/specs.jpg");
+            background-size:cover;
+            padding-bottom:3%;
+            }
+            #specs ul {
+            padding:0 10% 0 6%;
+            }
+            #specList li {
+            margin-bottom:20px;
+            }
+
+			/* Define FOOTER specifics */
+			#footerBorder {
+				background-color:#585858;
+				height:7px;
+			}
+			#footer {
+				background-color:#363636;
+				height:300px;
+			}
+			#socialMedia img:hover {
+				opacity:0.7;
+			}
+
+            /* Define general items */
+            .sectionTitle {
+            text-align:center;
+            }
+            .centerAlign {
+            text-align:center;
+            }
+            .rightAlign {
+            text-align:right;
+            }
+            .leftAlign {
+            text-align:left;
+            }
+        	.container {
+        		width:100%;
+        		margin:0px;
+        		padding:0px;
+        	}
+
+			/* Define mobile/web view controls */
+            .mobileShow {
+            	display:none;
+            }
+            .mobileHide {
+            	display:inline;
+            }
+        	@media (min-width:0px) and (max-width:991px) {
+        		.mobileShow {
+        			display:inline;
+        		}
+        		.mobileHide {
+        			display:none;
+        		}
+        	}
+        	html, body {
+        		width:auto !important;
+        		overflow-x:hidden !important;
+        	}
+
