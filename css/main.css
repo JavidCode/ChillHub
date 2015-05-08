@@ -185,7 +185,7 @@
             text-align:left;
             }
         	.container {
-        		width:100%;
+        		width: 100%;
         		margin:0px;
         		padding:0px;
         	}
@@ -209,4 +209,15 @@
         		width:auto !important;
         		overflow-x:hidden !important;
         	}
+        	#video {
+        	     margin: 0 auto; 
+        	     padding: 0;
+        	   }
+           #video iframe {
+               max-width: 100%;
+               max-height: inherit;
+               margin: 0 auto;
+               padding: 15px 30px;
+                }
+             
 
