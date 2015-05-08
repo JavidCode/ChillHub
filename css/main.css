@@ -93,6 +93,11 @@
             margin-right:10%;
             }
 
+            .row iframe {
+            height: 300px;
+            width: 630px
+
+            }
 
 
             /* Define APPLICATIONS specifics */
@@ -209,4 +214,14 @@
         		width:auto !important;
         		overflow-x:hidden !important;
         	}
+
+            @media screen and (max-width: 375px)
+            {
+            .row iframe {
+            height: 195px;
+            width: 375px
+
+            }
+
+            }
 
