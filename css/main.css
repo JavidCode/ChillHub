@@ -95,7 +95,14 @@
 
             .row iframe {
             height: 300px;
-            width: 630px
+            width: 630px;
+            display: block;
+            margin: 0 auto;
+            padding-bottom: 8px;
+            }
+
+            .vidHeading {
+            font-size: 2em;
 
             }
 
