@@ -1,4 +1,4 @@
-            /* Define font faces */
+/* Define font faces */
             @font-face {
             font-family: 'MavenProLight-200';
             src: url("fonts/MavenProLight-200.otf");
@@ -94,9 +94,9 @@
             }
 
             .row iframe {
-            height: 300px;
-            width: 630px;
-            display: block;
+            height: 250px;
+            width: 420px;
+            display: inline-block;
             margin: 0 auto;
             padding-bottom: 8px;
             }
