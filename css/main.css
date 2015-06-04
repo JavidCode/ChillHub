@@ -31,7 +31,8 @@
 	            padding:0 3% 0 8%;
             }
         	#photoLarge {
-        		margin:20px;
+        		margin: 20px;
+                width: 90%;
         	}
             #footerBar img {
             	margin:3px;
@@ -82,6 +83,7 @@
             /* Define STORY specifics */
             #story {
             background-color:#1ab7ea;
+            padding-bottom:3%;
             }
             #story p {
             padding:0 13% 0 13%;
@@ -91,6 +93,7 @@
             height:300px;
             margin-left:10%;
             margin-right:10%;
+            border: 0;
             }
 
             .row iframe {
@@ -99,10 +102,11 @@
             display: inline-block;
             margin: 0 auto;
             padding-bottom: 8px;
+            border: 0;
             }
 
             .vidHeading {
-            font-size: 2em;
+            font-size: 15px;
 
             }
 
