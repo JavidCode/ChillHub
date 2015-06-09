@@ -99,14 +99,21 @@
             .row iframe {
             height: 250px;
             width: 420px;
-            display: inline-block;
+            display: inline;
             margin: 0 auto;
             padding-bottom: 8px;
             border: 0;
             }
 
-            .vidHeading {
+            .vidHeading p {
             font-size: 15px;
+            display: block;
+            }
+
+            .video {
+            display: inline-block;
+/*            float: left;*/
+            font-size: 20px;
 
             }
 
@@ -230,7 +237,8 @@
             {
             .row iframe {
             height: 195px;
-            width: 375px
+            width: 375px;
+            border: 0;
 
             }
 
